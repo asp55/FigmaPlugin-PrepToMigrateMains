@@ -1,11 +1,24 @@
 {
   "name": "PrepForMigration",
-  "version": "1.0.0",
-  "description": "Your Figma plugin",
+  "version": "0.0.1",
+  "description": "A plugin to help in moving component definitions to a centralized library file.",
   "main": "code.js",
   "scripts": {
+    "start": "tsc -w -p tsconfig.json",
     "build": "tsc -p tsconfig.json"
   },
-  "author": "",
-  "license": ""
+  "author": "Andrew S. Parnell",
+  "license": "MIT",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.22.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asp55/FigmaPlugin-PrepToMigrateMains.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asp55/FigmaPlugin-PrepToMigrateMains/issues"
+  },
+  "homepage": "https://github.com/asp55/FigmaPlugin-PrepToMigrateMains#readme"
 }
