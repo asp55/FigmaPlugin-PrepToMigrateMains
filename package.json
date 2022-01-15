@@ -1,5 +1,5 @@
 {
-  "name": "PrepForMigration",
+  "name": "prepformigration",
   "version": "0.0.1",
   "description": "A plugin to help in moving component definitions to a centralized library file.",
   "main": "code.js",
@@ -12,7 +12,6 @@
   "devDependencies": {
     "@figma/plugin-typings": "^1.22.0"
   },
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/asp55/FigmaPlugin-PrepToMigrateMains.git"
