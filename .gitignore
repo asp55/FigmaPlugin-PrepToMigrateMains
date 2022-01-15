@@ -105,3 +105,6 @@ dist
 
 # DS_STORE 
 .DS_STORE
+
+#Compiled Javascript files
+*.js
